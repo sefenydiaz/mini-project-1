@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
-    font-family: Franklin Gothic Medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: black;
@@ -16,18 +15,31 @@ footer {
 header {
 background-color: green;
 position: fixed;
+height: 50px;
 left: 0;
 right: 0;
 }
 
 ul {
     position: relative;
+    display: flex;
     left: 1000px;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
 }
 
 main {
 min-height: 80vh;
-padding-top: 
+text-align: center;
+margin-top: 50px;
+
+}
+
+.placeholder {
+    height: 50px;
 }
 
 img {
